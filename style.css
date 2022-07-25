@@ -50,6 +50,7 @@ body {
 /* Nav */
 .navbar {
   background: linear-gradient(-45deg, #9eacb1, #76797a, #867171);
+<<<<<<< HEAD
   animation: gradient 15s ease infinite;
 }
 
@@ -63,25 +64,55 @@ body {
   100% {
     background-position: 0% 50%;
   }
+=======
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+>>>>>>> 117ebde9fe3138a8b4fd1a9ba823a5b047baf6c1
 }
 
 .logo-nav {
   width: 2vw;
 }
 
+<<<<<<< HEAD
 .navbar-nav {
+=======
+.navbar-nav{
+>>>>>>> 117ebde9fe3138a8b4fd1a9ba823a5b047baf6c1
   text-transform: uppercase;
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 .nav-link:hover {
   background-color: #8ea1a8;
+=======
+.nav-link:hover{
+  background-color: #8ea1a8;
+  
+>>>>>>> 117ebde9fe3138a8b4fd1a9ba823a5b047baf6c1
 }
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 117ebde9fe3138a8b4fd1a9ba823a5b047baf6c1
 /* Fin Nav*/
 /* Título */
 h1 {
