@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+  .body-cards {
+    display: grid;
+    justify-items: center;
+  }
+
+  .container-footer {
+    justify-items: center;
+  }
+
+  .explanation {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .nav-bar {
+    width: 100%;
+    nav a {
+      font-size: 9px;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav-bar nav {
+    flex-direction: column;
+    padding: 5px;
+    height: 150px;
+    .a {
+      line-height: 25px;
+    }
+  }
+}

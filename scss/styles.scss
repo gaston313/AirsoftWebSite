@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #979494;
+}
+
+/* Header*/
+
+.title-principal-logo {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: center;
+  .logo-header {
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+  }
+}
+
+/* Nav */
+@import "navbar";
+
+/* Fin Nav*/
+
+/* Título */
+h1 {
+  text-align: center;
+  margin: 15px 0 15px;
+  text-align: center;
+  font-size: 30px;
+  color: #ecf0f1;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Cherry Swash", cursive;
+  text-transform: uppercase;
+}
+
+/* Cartas Inicio*/
+@import "cards-index";
+
+/* Fin cartas Inicio*/
+
+/* Inicio Footer*/
+
+@import "footer";
+
+/* Fin Footer*/
+
+/* Carousel */
+#carouselExampleControls {
+  padding: 20px;
+  .d-block {
+    border-radius: 40px;
+  }
+}
+
+/* Formulario de contacto*/
+.contact-form {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+/*Sobre nosotros*/
+@import "about-us";
+
+/*Eventos*/
+.body-events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  p {
+    padding: 5px;
+    margin: 15px;
+  }
+}
+
+/*----------------------- Grid y medias queries -----------------------*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(4, auto);
+  grid-row-gap: 10px;
+}
+
+@import "_medias-queries";
