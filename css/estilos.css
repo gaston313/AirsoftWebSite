@@ -53,6 +53,57 @@ h1 {
   font-family: "Cherry Swash", cursive;
   text-transform: uppercase; }
 
+/* Títulos - Páginas*/
+.tittle-index {
+  margin-bottom: 0px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase; }
+
+.tittle-about-us {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase; }
+
+.tittle-contact {
+  margin-bottom: 0px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase; }
+
+.tittle-events {
+  margin-bottom: 0px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase; }
+
+.tittle-gallery {
+  margin-bottom: 0px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase; }
+
 /* Cartas Inicio*/
 .body-cards {
   display: flex;
@@ -127,16 +178,6 @@ h1 {
 .contact-form {
   padding-left: 20px;
   padding-top: 30px; }
-
-/*Sobre nosotros*/
-.about-us {
-  margin: 15px; }
-  .about-us .tittle-about-us {
-    text-align: center;
-    padding: 10px; }
-  .about-us p {
-    margin-top: 0;
-    margin-bottom: 1rem; }
 
 /*Eventos*/
 .body-events {

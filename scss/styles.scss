@@ -39,6 +39,36 @@ h1 {
   font-family: "Cherry Swash", cursive;
   text-transform: uppercase;
 }
+/* Títulos - Páginas*/
+@mixin tittles($margeninf) {
+  margin-bottom: $margeninf;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+}
+
+.tittle-index {
+  @include tittles(0px);
+}
+.tittle-about-us {
+  @include tittles(15px);
+}
+
+.tittle-contact {
+  @include tittles(0px);
+}
+
+.tittle-events {
+  @include tittles(0px);
+}
+
+.tittle-gallery {
+  @include tittles(0px);
+}
 
 /* Cartas Inicio*/
 @import "cards-index";
@@ -64,8 +94,6 @@ h1 {
   padding-left: 20px;
   padding-top: 30px;
 }
-/*Sobre nosotros*/
-@import "about-us";
 
 /*Eventos*/
 .body-events {

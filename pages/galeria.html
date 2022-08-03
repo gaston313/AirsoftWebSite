@@ -4,8 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Airosft Games</title>
-    <link rel="shortcut icon" href="./imagenes/ghost favicon.png" />
+    <title>Airosft Games - Galería</title>
+    <link rel="shortcut icon" href="../images/ghost favicon.png" />
+    <meta
+      name="keywords"
+      content="airsoft,simulación,deporte,juegos,airsoft Argentina,adrenalina,galería,fotos,imágenes"
+    />
+    <meta
+      name="description"
+      content="Conocé el deporte más de cerca visitando nuesta galería"
+    />
     <!-- CSS BOOTSTRAP -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -23,7 +31,7 @@
         <div class="title-principal-logo">
           <img
             class="logo-header"
-            src="imagenes/logo ghost.png"
+            src="../images/logo ghost.png"
             alt="logo de la página web"
           />
           <h1>Airsoft Games</h1>
@@ -32,11 +40,7 @@
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
-            <img
-              src="./imagenes/logo ghost.png"
-              alt="logo"
-              class="logo-nav"
-            />
+            <img src="../images/logo ghost.png" alt="logo" class="logo-nav" />
             <button
               class="navbar-toggler"
               type="button"
@@ -50,7 +54,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" href="./index.html">Inicio</a>
+                <a class="nav-link active" href="../index.html">Inicio</a>
+
                 <a class="nav-link" href="./sobre_nosotros.html" class="text-2"
                   >Sobre Nosotros</a
                 >
@@ -70,27 +75,59 @@
         <!-- NAV BAR-->
       </header>
       <!-- Cierre de encabezado + logo -->
-      <!-- Formulario -->
-      <form class="contact-form">
-        <p>
-          <label for="name_lastname"> Nombre y Apellido </label>
-          <br />
-          <input type="text" id="name_lastname" />
-        </p>
-        <p>
-          <label for="email"> Mail de contacto </label>
-          <br />
-          <input type="email" id="email" />
-        </p>
-        <p>
-          <label for="comments">Comentarios</label>
-          <br />
-          <textarea name="comments" id="" cols="30" rows="10"></textarea>
-        </p>
-        <input type="submit" value="Enviar formulario" />
-        <input type="reset" value="Limpiar formulario" />
-      </form>
-      <!-- Fin del formulario -->
+      <h2 class="tittle-gallery">MIRÁ MÁS DE CERCA</h2>
+      <!-- Carrousel -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../images/airsoft photo 1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="../images/airsoft photo 2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="../images/airsoft photo 3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Fin de sección + iframe + imágenes + descripción de la sección -->
       <!-- Inicio de footer -->
       <footer class="footer-box text-center text-lg-start text-white">
         <!-- Grid container -->
@@ -104,7 +141,7 @@
                 style="width: 150px; height: 150px"
               >
                 <img
-                  src="imagenes/logo ghost.png"
+                  src="../images/logo ghost.png"
                   height="100"
                   alt=""
                   loading="lazy"
@@ -208,6 +245,7 @@
       </footer>
     </div>
     <!-- Fin de footer -->
+    <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
