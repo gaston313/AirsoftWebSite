@@ -10,3 +10,8 @@ SEO:
 - Se agregaron etiquetas "meta description" en todos los html. Cada etiqueta meta description es diferente según el html, permitiendo una idea clara del contenido.
 
 - Se agregaron "Tittles" personalizados según el HTML visitado, mejorando así la experiencia de navegación.
+
+Subida de página en Netlify
+Adjunto la url de mi página subida al servidor de Netlify:
+
+-https://airsoftgames.netlify.app/index.html
