@@ -14,4 +14,4 @@ SEO:
 Subida de página en Netlify
 Adjunto la url de mi página subida al servidor de Netlify:
 
--https://airsoftgames.netlify.app/index.html
+- https://airsoftgames.netlify.app/index.html
