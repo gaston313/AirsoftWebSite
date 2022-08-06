@@ -12,6 +12,7 @@ SEO:
 - Se agregaron "Tittles" personalizados según el HTML visitado, mejorando así la experiencia de navegación.
 
 Subida de página en Netlify
+
 Adjunto la url de mi página subida al servidor de Netlify:
 
 - https://airsoftgames.netlify.app/index.html
