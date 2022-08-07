@@ -76,7 +76,27 @@
       <!-- Cierre de encabezado + logo -->
       <h2 class="tittle-contact">CONTÁCTANOS</h2>
       <!-- Formulario -->
-      <form class="contact-form">
+      <div class="page-wrapper">
+        <div class="container">
+          <div class="col1 no-gutters">
+            <img src="../images/contact.jpg" />
+          </div>
+          <div class="col2">
+            <div class="form-wrapper">
+              <input type="email" name="email" placeholder="Escribir Email" />
+              <input type="text" name="name" placeholder="Escribir Nombre" />
+              <textarea
+                name="message"
+                rows="10"
+                placeholder="Escribir Mensaje"
+              ></textarea>
+              <button><i class="fa fa-envelope"></i>Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <form class="contact-form">
         <p>
           <label for="name_lastname"> Nombre y Apellido </label>
           <br />
@@ -94,7 +114,7 @@
         </p>
         <input type="submit" value="Enviar formulario" />
         <input type="reset" value="Limpiar formulario" />
-      </form>
+      </form> -->
       <!-- Fin del formulario -->
       <!-- Inicio de footer -->
       <footer class="footer-box text-center text-lg-start text-white">

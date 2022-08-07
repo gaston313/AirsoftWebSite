@@ -28,6 +28,9 @@ body {
 
 /* Fin Nav*/
 
+/* Index*/
+@import "index";
+
 /* Título */
 h1 {
   text-align: center;
@@ -74,6 +77,12 @@ h1 {
 @import "cards-index";
 
 /* Fin cartas Inicio*/
+
+/* Contáctanos */
+@import "contact";
+
+/* Sobre Nosotros */
+@import "about-us";
 
 /* Inicio Footer*/
 

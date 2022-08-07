@@ -31,3 +31,26 @@
     }
   }
 }
+
+/*Contacto*/
+
+@media screen and (max-width: 768px) {
+  div.page-wrapper div.container {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 400px) {
+  div.page-wrapper div.container {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  div.page-wrapper div.container div.col1 {
+    width: 50%;
+  }
+  div.page-wrapper div.container div.col2 {
+    width: 50%;
+  }
+  div.page-wrapper div.container div.col2 div.form-wrapper {
+    width: 100%;
+  }
+}

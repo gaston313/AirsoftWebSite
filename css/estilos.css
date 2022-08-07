@@ -42,6 +42,13 @@ body {
       background-color: #8ea1a8; }
 
 /* Fin Nav*/
+/* Index*/
+.explanation {
+  color: black;
+  margin: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box; }
+
 /* Título */
 h1 {
   text-align: center;
@@ -126,7 +133,7 @@ h1 {
       .body-cards .card .face.back {
         transform: perspective(600px) rotateY(180deg);
         background-color: #032336;
-        padding: 30px;
+        padding: 25px;
         color: #f3f3f3;
         display: flex;
         flex-direction: column;
@@ -135,7 +142,7 @@ h1 {
         box-shadow: 0 5px 10px black;
         letter-spacing: 1px; }
         .body-cards .card .face.back h3 {
-          font-size: 25px;
+          font-size: 20px;
           letter-spacing: 2px;
           margin-bottom: 20px;
           text-transform: uppercase; }
@@ -163,6 +170,115 @@ h1 {
       transform: perspective(600px) rotateY(360deg); }
 
 /* Fin cartas Inicio*/
+/* Contáctanos */
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box; }
+
+div.page-wrapper {
+  width: 100%;
+  height: auto; }
+
+div.page-wrapper div.container {
+  display: flex;
+  width: 800px;
+  height: 450px;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  --bs-gutter-x: 0;
+  background-color: #555555; }
+
+div.page-wrapper div.container div.col1 {
+  width: 40%; }
+
+div.page-wrapper div.container div.col1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+div.page-wrapper div.container div.col2 {
+  width: 60%; }
+
+div.page-wrapper div.container div.col2 h1 {
+  padding: 20px 20px; }
+
+div.page-wrapper div.container div.col2 div.form-wrapper {
+  width: 98%;
+  height: auto;
+  padding: 20px;
+  margin: 10px auto; }
+
+div.page-wrapper div.container div.col2 div.form-wrapper textarea {
+  height: 150px;
+  background-color: transparent;
+  color: #ffffff; }
+
+div.page-wrapper div.container div.col2 div.form-wrapper input {
+  width: 98%;
+  padding: 10px;
+  margin: 10px auto;
+  border: none;
+  box-shadow: 0 0px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #ffffff; }
+
+div.page-wrapper div.container div.col2 div.form-wrapper input:focus {
+  box-shadow: 0 0px 2px 2px #00b4d8; }
+
+div.page-wrapper div.container div.col2 div.form-wrapper input::placeholder {
+  color: #00b4d8; }
+
+div.page-wrapper div.container div.col2 div.form-wrapper textarea {
+  width: 98%;
+  padding: 10px;
+  resize: none;
+  margin: 10px auto;
+  border: none;
+  box-shadow: 0 0px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 18px; }
+
+div.page-wrapper div.container div.col2 div.form-wrapper textarea:focus {
+  box-shadow: 0 0px 2px 2px #00b4d8; }
+
+div.page-wrapper div.container div.col2 div.form-wrapper textarea::placeholder {
+  color: #00b4d8; }
+
+div.page-wrapper div.container div.col2 div.form-wrapper button {
+  padding: 8px 20px;
+  font-size: 20px;
+  background: #00b4d8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin: 20px 0;
+  cursor: pointer; }
+
+div.page-wrapper div.container div.col2 div.form-wrapper button:hover {
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5); }
+
+div.page-wrapper div.container div.col2 div.form-wrapper button:active {
+  background: #0096c7; }
+
+/* Sobre Nosotros */
+.body-text {
+  text-align: start;
+  padding: 10px;
+  font-size: 20px;
+  box-sizing: border-box; }
+
+.body-text2 {
+  padding-left: 10px;
+  font-size: 25px;
+  box-sizing: border-box; }
+
 /* Inicio Footer*/
 .footer-box {
   background-color: #76797a; }
@@ -217,3 +333,19 @@ h1 {
     height: 150px; }
     .nav-bar nav .a {
       line-height: 25px; } }
+
+/*Contacto*/
+@media screen and (max-width: 768px) {
+  div.page-wrapper div.container {
+    width: 98%; } }
+
+@media screen and (max-width: 400px) {
+  div.page-wrapper div.container {
+    width: 90%;
+    flex-wrap: wrap; }
+  div.page-wrapper div.container div.col1 {
+    width: 50%; }
+  div.page-wrapper div.container div.col2 {
+    width: 50%; }
+  div.page-wrapper div.container div.col2 div.form-wrapper {
+    width: 100%; } }
