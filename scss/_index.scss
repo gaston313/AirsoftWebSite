@@ -1,6 +1,30 @@
 .explanation {
-  color: black;
   margin: 10px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: start;
+  padding: 10px;
+  font-size: 20px;
   box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  color: azure;
+}
+
+.role_play {
+  padding-left: 10px;
+  font-size: 32px;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(47, 165, 165);
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.roles {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  color: azure;
 }

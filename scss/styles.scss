@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #979494;
+  background-color: #0b1a1b;
 }
 
 /* Header*/
@@ -31,26 +31,15 @@ body {
 /* Index*/
 @import "index";
 
-/* Título */
-h1 {
-  text-align: center;
-  margin: 15px 0 15px;
-  text-align: center;
-  font-size: 30px;
-  color: #ecf0f1;
-  text-shadow: 2px 2px 4px #000000;
-  font-family: "Cherry Swash", cursive;
-  text-transform: uppercase;
-}
 /* Títulos - Páginas*/
 @mixin tittles($margeninf) {
   margin-bottom: $margeninf;
   margin-top: 15px;
   text-align: center;
   font-size: 30px;
-  color: #ffffff;
+  color: #6299b8;
   text-shadow: 2px 2px 4px #000000;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Russo One", sans-serif;
   text-transform: uppercase;
 }
 
@@ -70,13 +59,16 @@ h1 {
 }
 
 .tittle-gallery {
-  @include tittles(0px);
+  @include tittles(15px);
 }
 
 /* Cartas Inicio*/
 @import "cards-index";
 
 /* Fin cartas Inicio*/
+
+/* Eventos */
+@import "events";
 
 /* Contáctanos */
 @import "contact";
@@ -91,13 +83,7 @@ h1 {
 /* Fin Footer*/
 
 /* Carousel */
-#carouselExampleControls {
-  padding: 20px;
-  .d-block {
-    border-radius: 40px;
-  }
-}
-
+@import "_gallery";
 /* Formulario de contacto*/
 .contact-form {
   padding-left: 20px;
@@ -117,7 +103,6 @@ h1 {
 
 /*----------------------- Grid y medias queries -----------------------*/
 .grid-container {
-  display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(4, auto);
   grid-row-gap: 10px;

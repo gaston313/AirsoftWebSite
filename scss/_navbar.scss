@@ -11,10 +11,12 @@
 }
 
 .navbar {
-  background: linear-gradient(-45deg, #9eacb1, #76797a, #867171);
-  animation: gradient 15s ease infinite;
+  background: #2e2f2c;
   padding-top: 0;
   padding-bottom: 0;
+  .nav-link {
+    color: #eeeaee;
+  }
   .container-fluid {
     .logo-nav {
       width: 2vw;
@@ -24,7 +26,18 @@
     text-transform: uppercase;
     font-weight: bold;
     .nav-link:hover {
-      background-color: #8ea1a8;
+      background-color: #317086;
     }
   }
+}
+.brand {
+  font-family: "Russo One", sans-serif;
+  color: #6299b8;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 3px;
+  text-decoration: none;
+}
+a:hover {
+  color: #6299b8;
 }

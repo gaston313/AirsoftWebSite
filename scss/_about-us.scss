@@ -3,9 +3,105 @@
   padding: 10px;
   font-size: 20px;
   box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  color: azure;
 }
 .body-text2 {
   padding-left: 10px;
-  font-size: 25px;
+  font-size: 32px;
   box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(47, 165, 165);
+  font-weight: bold;
+}
+
+.body_about {
+  font-family: "Varela Round", sans-serif;
+  margin: 0;
+  height: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.card_about {
+  background: #2e2f2c;
+  border: 4px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 10px black;
+}
+
+.card h2 {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.card .title_about {
+  padding: 1rem;
+  text-align: right;
+  color: #2d7ef9;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.img-avatar {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  border-radius: 50%;
+  border: 6px solid #061418;
+  top: 10px;
+  left: 240px;
+}
+
+.img-avatar img {
+  border-radius: 50%;
+}
+
+.portada {
+  width: 110%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.card_text_about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: beige;
+}
+
+.title-total {
+  padding: 0.5em 1.5em 1.5em 3.5em;
+}
+
+.img-portada {
+  width: 100%;
+}
+
+.card .desc {
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.card .actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0.5rem 1rem;
 }

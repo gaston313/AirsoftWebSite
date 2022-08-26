@@ -14,6 +14,14 @@
       name="description"
       content="Testimonios de jugadores con mucho tiempo en el deporte"
     />
+        <!--Tipografía-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+          rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Russo+One&display=swap" rel="stylesheet">
     <!-- CSS BOOTSTRAP -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -28,19 +36,19 @@
   <body>
     <div class="grid-container">
       <header>
-        <div class="title-principal-logo">
-          <img
-            class="logo-header"
-            src="../images/logo ghost.png"
-            alt="logo de la página web"
-          />
-          <h1>Airsoft Games</h1>
-        </div>
         <!-- NAV BAR-->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
-            <img src="../images/logo ghost.png" alt="logo" class="logo-nav" />
+            <a href="../index.html">
+              <img
+                src="../images/logo ghost.png"
+                alt="logo"
+                class="logo-nav"
+                href="../index.html"
+              />
+            </a>
+            <a class="brand" href="../index.html">AIRSOFT GAMES</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -54,7 +62,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" href="../index.html">Inicio</a>
+                <a class="nav-link" href="../index.html">Inicio</a>
                 <a class="nav-link" href="./sobre_nosotros.html" class="text-2"
                   >Sobre Nosotros</a
                 >
@@ -75,13 +83,85 @@
       </header>
       <!-- Inicio del section  -->
       <div class="about-us">
-        <h2 class="tittle-about-us">MÁS QUE UN SIMPLE JUEGO</h2>
+        </div>
+        <h1 class="tittle-about-us">MÁS QUE UN SIMPLE JUEGO</h1>
         <p class="body-text">
           Te comentamos de primera mano sobre el deporte de parte de aquellos
           que lleven años en el mismo. Jugadores de varios equipos que tienen
           algo que compartir con vos.
         </p>
         <p class="body-text2">Mirá sus historias.</p>
+      </div>
+
+      <!-- Presentaciones-->
+      <div class="body_about">
+        <div class="card_about">
+          <div class="img-avatar">
+            <img src="../images/Trey perfil.jpeg" alt="" />
+          </div>
+          <div class="card_text_about">
+            <div class="portada">
+              <img src="../images/Trey.jpeg" />
+            </div>
+            <div class="title-total">
+              <div class="title_card">Lobo Solitario</div>
+              <h2>Heredia Gastón</h2>
+              <div class="descrip">
+                Empecé el airsoft en el año 2012, por parte de un familiar. Por
+                aquel entonces, este deporte recién se estaba dando a conocer en
+                el país, siendo algo totalmente novedoso. Esta disciplina
+                fomentó en mi cosas como la camadería, el trabajo en equipo y la
+                comunicación. Realmente invito a las personas a probar este
+                deporte.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="body_about">
+        <div class="card_about">
+          <div class="img-avatar">
+            <img src="../images/Julian.jpeg" alt="" />
+          </div>
+          <div class="card_text_about">
+            <div class="portada">
+              <img src="../images/Hidra.jpeg" />
+            </div>
+            <div class="title-total">
+              <div class="title_card">Miembro de Hydra Airsoft</div>
+              <h2>Julián Figueroa</h2>
+              <div class="descrip">
+                Comencé el juego en 2019 cuando un amigo me presento el deporte.
+                A partir de ahí empecé a adentrarme más y terminó siendo un
+                hobbie adictivo que al día de hoy ya practico en un equipo. Un
+                deporte que conlleva mucha energia, adrenalina y táctica, con
+                mucho trabajo en equipo y compañerismo. Simulando eventos,
+                objetivos y escenarios diferentes donde hay que adaptarse y
+                avanzar en grupo para lograr los objetivos.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="body_about">
+        <div class="card_about">
+          <div class="img-avatar">
+            <img src="../images/Lauti.jpg" alt="" />
+          </div>
+          <div class="card_text_about">
+            <div class="portada">
+              <img src="../images/lauti.campo.jpg" />
+            </div>
+            <div class="title-total">
+              <div class="title_card">Miembro de GOAT</div>
+              <h2>Lautaro Carracedo</h2>
+              <div class="descrip">
+                Conocí el deporte en el 2019 viendo videos en Youtube, gracias a esto de a poquito me fui interiorizando con la disciplina
+                La verdad que no pensé que algo pudiera generarme tanta emoción y adrenlina, la verdad quedé encantado con esta actividad.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- Fin del section  -->
       <!-- Inicio de footer -->
@@ -93,8 +173,8 @@
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
               <div
-                class="rounded-circle bg-black shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
-                style="width: 150px; height: 150px"
+                class="rounded-circle bg-black shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto p-2"
+                style="width: 100px; height: 100px"
               >
                 <img
                   src="../images/logo ghost.png"
@@ -117,32 +197,23 @@
               <h5 class="text-uppercase mb-4">Links de Interés</h5>
               <ul class="list-unstyled">
                 <li class="mb-2">
-                  <a href="#!" class="text-white"
+                  <a href="https://www.airsoft-bb.com/airsoftbb/" class="text-white"
                     ><i class="fas fa-paw pe-3"></i>Airsoft Argentina</a
                   >
                 </li>
                 <li class="mb-2">
-                  <a href="#!" class="text-white"
+                  <a href="https://www.triestina.com.ar/" class="text-white"
                     ><i class="fas fa-paw pe-3"></i>La Triestina</a
                   >
                 </li>
                 <li class="mb-2">
-                  <a href="#!" class="text-white"
+                  <a href="https://www.instagram.com/jdgairsoft/?utm_medium=copy_link" class="text-white"
                     ><i class="fas fa-paw pe-3"></i>Campos de Airsoft</a
                   >
                 </li>
+
                 <li class="mb-2">
-                  <a href="#!" class="text-white"
-                    ><i class="fas fa-paw pe-3"></i>Equipos</a
-                  >
-                </li>
-                <li class="mb-2">
-                  <a href="#!" class="text-white"
-                    ><i class="fas fa-paw pe-3"></i>Foros</a
-                  >
-                </li>
-                <li class="mb-2">
-                  <a href="#!" class="text-white"
+                  <a href="https://www.arsenalsports.com/" class="text-white"
                     ><i class="fas fa-paw pe-3"></i>Arsenal Sport</a
                   >
                 </li>
@@ -157,31 +228,32 @@
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
               />
-              <a
-                class="btn btn-primary btn-floating m-1"
-                style="background-color: #3b5998"
-                href="#!"
-                role="button"
-                ><i class="bi bi-facebook"></i
-              ></a>
-
-              <!-- Twitter -->
-              <a
-                class="btn btn-primary btn-floating m-1"
-                style="background-color: #55acee"
-                href="#!"
-                role="button"
-                ><i class="bi bi-twitter"></i
-              ></a>
-
-              <!-- Instagram -->
-              <a
-                class="btn btn-primary btn-floating m-1"
-                style="background-color: #ac2bac"
-                href="#!"
-                role="button"
-                ><i class="bi bi-instagram"></i
-              ></a>
+                           <!-- Facebook -->
+                           <a
+                           class="btn btn-primary btn-floating m-1"
+                           style="background-color: #3b5998"
+                           href="https://www.facebook.com/profile.php?id=100063533076416"
+                           role="button"
+                           ><i class="bi bi-facebook"></i
+                         ></a>
+           
+                         <!-- Twitter -->
+                         <a
+                           class="btn btn-primary btn-floating m-1"
+                           style="background-color: #55acee"
+                           href="https://twitter.com/WarDog_Airsoft"
+                           role="button"
+                           ><i class="bi bi-twitter"></i
+                         ></a>
+           
+                         <!-- Instagram -->
+                         <a
+                           class="btn btn-primary btn-floating m-1"
+                           style="background-color: #ac2bac"
+                           href="https://www.instagram.com/hydra_airsoft_team/"
+                           role="button"
+                           ><i class="bi bi-instagram"></i
+                         ></a>
             </div>
             <!--Grid column-->
           </div>
@@ -194,7 +266,7 @@
           class="text-center p-3"
           style="background-color: rgba(0, 0, 0, 0.2)"
         >
-          © 2020 Copyright:
+          © 2020 Copyright
           <a class="text-white" href="https://mdbootstrap.com/"></a>
         </div>
         <!-- Copyright -->
